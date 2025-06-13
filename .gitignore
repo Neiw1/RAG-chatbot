@@ -1,1 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Virtual environments
 venv/
+.env/
+
+# Environment variables
+*.env
+
+# macOS system files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Pygame window save states (optional)
+*.sav
