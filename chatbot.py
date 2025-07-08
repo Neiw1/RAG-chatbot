@@ -49,7 +49,6 @@ class Chatbot:
             return "I cannot answer questions containing profanity."
         return None
 
-
 if __name__ == '__main__':
     bot = Chatbot('documents.csv')
     bot.chunk_documents()

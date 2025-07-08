@@ -48,4 +48,3 @@ if __name__ == '__main__':
     print("Evaluating no_answer_questions.csv")
     accuracy = evaluator.evaluate('no_answer_questions.csv')
     print(f"Accuracy on no_answer_questions.csv: {accuracy * 100:.2f}%")
-
